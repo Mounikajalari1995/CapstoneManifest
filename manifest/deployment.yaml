@@ -14,6 +14,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: mounikajalari/capstoneproject:$version
+        image: mounikajalari/capstoneproject:build-$CIRCLE_BUILD_NUM
         ports:
         - containerPort: 80
+
