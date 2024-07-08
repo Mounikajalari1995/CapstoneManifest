@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: mounikajalari/capstoneproject:build-106
+        image: mounikajalari/capstoneproject:build-110
         ports:
         - containerPort: 80
 
